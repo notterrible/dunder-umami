@@ -1,0 +1,14 @@
+name: Autoban Advanced Ban Provider
+description: Integration with Advanced Ban module
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: module
+package: 'Autoban'
+dependencies:
+  - advban:advban
+  - autoban:autoban
+
+# Information added by Drupal.org packaging script on 2020-01-09
+version: '8.x-1.6'
+project: 'autoban'
+datestamp: 1578573190
