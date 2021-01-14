@@ -43,7 +43,7 @@ class VendorHardeningPlugin implements PluginInterface, EventSubscriberInterface
   /**
    * Configuration.
    *
-   * @var \Drupal\Composer\VendorHardening\Config
+   * @var \Drupal\Composer\Plugin\VendorHardening\Config
    */
   protected $config;
 
@@ -63,6 +63,18 @@ class VendorHardeningPlugin implements PluginInterface, EventSubscriberInterface
 
     // Set up configuration.
     $this->config = new Config($this->composer->getPackage());
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function deactivate(Composer $composer, IOInterface $io) {
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function uninstall(Composer $composer, IOInterface $io) {
   }
 
   /**
