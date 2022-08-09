@@ -9,3 +9,5 @@ adding some new modules for everyone
 adding some additional features
 
 rollback, there were some errors
+
+fixed some more bugs
