@@ -1,3 +1,5 @@
 this is a new touch file.
 
 Update the SSO module configurations
+
+Update to the latest version of Drupal
